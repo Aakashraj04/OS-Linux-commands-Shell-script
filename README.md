@@ -287,73 +287,85 @@ sed -n -e '3p' file23
 sed -n -e '$p' file23
 ## OUTPUT
 
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/c8e46caf-8c59-42a5-bf51-09491409c09c)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/d65508e0-334e-409e-9e75-6719432c64e0)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/3c90832e-332b-4638-877e-7d57f964c2e0)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/5f254ef4-f713-456a-8c39-d883e402a997)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/42ec110a-ad05-428b-8aa1-3427f8931154)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/91e2d86f-be2f-4cff-bc5b-46651d9eaec1)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/05529eb6-ea51-4023-8e3f-17f32d05dc83)
 
 
 seq 10 
 ## OUTPUT
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/1912b991-788d-4941-96fc-34f9c119639d)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/150b54e8-9b28-4d15-8874-650b9594e58d)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/183d08ae-4459-4c07-8995-ad4a95561bc2)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/089282ba-f462-4a12-94fa-c603e5fbb693)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/c44a28f6-a87e-4890-a02f-38f1db990793)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/e9f09a5e-2377-4d24-99bc-d4137d865d75)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/e6ad7a2e-3e7c-4611-86db-e921ffa88393)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/be07359b-8bdd-482a-8788-4324d9ad7f47)
 
 
 #Sorting File content
@@ -380,13 +392,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/7ae4b4ac-67ba-469b-9577-08c766fac86b)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/5ed4838c-3b49-4dda-acec-0b6f999883c5)
 
 cat < urllist.txt
 ```
@@ -404,6 +417,7 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+![image](https://github.com/Aakashraj04/OS-Linux-commands-Shell-script/assets/121117266/549e6acc-4620-4e35-a3e1-342d1d42ec3d)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
